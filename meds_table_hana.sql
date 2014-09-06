@@ -31,8 +31,4 @@ ne."PATIENT_INFO"
 	AND
 	ne."CATEGORY" LIKE '%DISCHARGE_SUMMARY%'
 	)
-	AND
-	(
-	ic."SUBJECT_ID"= 31
-	)
 --)

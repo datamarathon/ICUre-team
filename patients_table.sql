@@ -1,6 +1,7 @@
 --Export PATIENTS table for our Grand Mal patients
 SELECT DISTINCT ic.subject_id, 
 	ic.code, 
+	dp.sex,
 	dp.hospital_expire_flg
 FROM MIMIC2V26.icd9 ic
 	JOIN MIMIC2V26.d_patients dp
